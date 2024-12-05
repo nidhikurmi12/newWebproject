@@ -7,11 +7,11 @@ const Header = () => {
 
   return (
     <header className="fixed top-0 left-0 right-0 bg-white/70 dark:bg-gray-900/70 backdrop-blur-lg border-b border-gray-200 dark:border-gray-800 z-50">
-      <nav className="container mx-auto px-6 py-4">
-        <div className="flex items-center justify-between">
+      <nav className="container mx-auto px-4 md:px-0 lg:px-4 py-4">
+        <div className="flex gap-2 items-center justify-between">
           <div className="flex items-center">
             <Sparkles className="h-8 w-8 text-purple-600 dark:text-purple-400" />
-            <span className="ml-2 text-xl font-bold gradient-text">Random</span>
+            <span className=" text-xl font-bold gradient-text">Random</span>
           </div>
           
           <div className="hidden md:flex items-center space-x-8">
@@ -21,7 +21,7 @@ const Header = () => {
             <a href="#about" className="text-gray-600 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors">About</a>
             <a href="#contact" className="text-gray-600 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors">Contact</a>
             <ThemeToggle />
-            <button className="bg-gradient-to-r from-purple-500 to-pink-600 text-white px-6 py-2 rounded-lg hover:opacity-90 transition-opacity">
+            <button className="bg-gradient-to-r text-nowrap from-purple-500 to-pink-600 text-white px-3 py-2 rounded-lg hover:opacity-90 transition-opacity">
               Get Started
             </button>
           </div>
@@ -45,7 +45,7 @@ const Header = () => {
               <a href="#pricing" className="text-gray-600 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors">Pricing</a>
               <a href="#about" className="text-gray-600 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors">About</a>
               <a href="#contact" className="text-gray-600 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors">Contact</a>
-              <button className="bg-gradient-to-r from-purple-500 to-pink-600 text-white px-6 py-2 rounded-lg hover:opacity-90 transition-opacity">
+              <button className=" text-nowrap bg-gradient-to-r from-purple-500 to-pink-600 text-white px-6 py-2 rounded-lg hover:opacity-90 transition-opacity">
                 Get Started
               </button>
             </div>
