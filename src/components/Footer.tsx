@@ -76,14 +76,7 @@ const Footer = () => {
                   Terms of Service
                 </a>
               </li>
-              <li>
-                <a
-                  href="#"
-                  className="text-gray-900 dark:text-gray-400 hover:text-purple-400 dark:hover:text-purple-300 transition-colors"
-                >
-                  Cookie Policy
-                </a>
-              </li>
+             
             </ul>
           </div>
 
